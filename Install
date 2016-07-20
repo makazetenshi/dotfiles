@@ -54,7 +54,6 @@ function install_packages {
   symlink "$DOTFILES/vim/vimrc" ".vimrc"
   symlink "$DOTFILES/vim/gvimrc" ".gvimrc"
   symlink "$DOTFILES/vim/dotvim" ".vim"
-  symlink "$DOTFILES/zsh/oh-my-zsh/" ".oh-my-zsh"
   symlink "$DOTFILES/zsh/extensions/plugins/mathiasjakobsen" ".oh-my-zsh/plugins/mathiasjakobsen"
   symlink "$DOTFILES/zsh/extensions/themes/mathiasjakobsen.zsh-theme" ".oh-my-zsh/themes/mathiasjakobsen.zsh-theme"
   symlink "$DOTFILES/zsh/extensions/themes/honukai.zsh-theme" ".oh-my-zsh/themes/honukai.zsh-theme"
@@ -62,8 +61,6 @@ function install_packages {
   symlink "$DOTFILES/zsh/zshenv" ".zshenv"
   symlink "$DOTFILES/zsh/profile" ".profile"
   symlink "$DOTFILES/bin" "bin"
-  symlink "Dropbox (Personlig)/Apps Sync/Dotfiles/ssh" ".ssh"
-  symlink "Dropbox (Personlig)/Apps Sync/Dotfiles/zsh_history" ".zsh_history"
 }
 
 function symlink() {
